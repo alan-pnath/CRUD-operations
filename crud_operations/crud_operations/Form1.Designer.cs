@@ -45,8 +45,6 @@
             txtDep = new TextBox();
             txtPosition = new TextBox();
             txtSalary = new TextBox();
-            txtRegid = new TextBox();
-            label7 = new Label();
             ((System.ComponentModel.ISupportInitialize)EmployeeRegister).BeginInit();
             SuspendLayout();
             // 
@@ -64,7 +62,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(676, 664);
+            button1.Location = new Point(676, 597);
             button1.Name = "button1";
             button1.Size = new Size(100, 40);
             button1.TabIndex = 1;
@@ -74,7 +72,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(827, 664);
+            button2.Location = new Point(824, 597);
             button2.Name = "button2";
             button2.Size = new Size(100, 40);
             button2.TabIndex = 2;
@@ -84,7 +82,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(975, 664);
+            button3.Location = new Point(970, 597);
             button3.Name = "button3";
             button3.Size = new Size(100, 40);
             button3.TabIndex = 3;
@@ -94,7 +92,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(1120, 664);
+            button4.Location = new Point(1112, 597);
             button4.Name = "button4";
             button4.Size = new Size(100, 40);
             button4.TabIndex = 4;
@@ -116,7 +114,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(676, 181);
+            label2.Location = new Point(676, 238);
             label2.Name = "label2";
             label2.Size = new Size(158, 28);
             label2.TabIndex = 6;
@@ -126,7 +124,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(678, 269);
+            label3.Location = new Point(679, 308);
             label3.Name = "label3";
             label3.Size = new Size(103, 28);
             label3.TabIndex = 7;
@@ -137,7 +135,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label4.Location = new Point(676, 347);
+            label4.Location = new Point(676, 385);
             label4.Name = "label4";
             label4.Size = new Size(126, 28);
             label4.TabIndex = 8;
@@ -147,7 +145,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(679, 428);
+            label5.Location = new Point(679, 456);
             label5.Name = "label5";
             label5.Size = new Size(91, 28);
             label5.TabIndex = 9;
@@ -157,7 +155,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label6.Location = new Point(679, 512);
+            label6.Location = new Point(679, 170);
             label6.Name = "label6";
             label6.Size = new Size(74, 28);
             label6.TabIndex = 10;
@@ -172,55 +170,38 @@
             // 
             // txtEmpcode
             // 
-            txtEmpcode.Location = new Point(856, 181);
+            txtEmpcode.Location = new Point(856, 238);
             txtEmpcode.Name = "txtEmpcode";
             txtEmpcode.Size = new Size(249, 27);
             txtEmpcode.TabIndex = 12;
             // 
             // txtDate
             // 
-            txtDate.Location = new Point(856, 269);
+            txtDate.Location = new Point(856, 312);
             txtDate.Name = "txtDate";
             txtDate.Size = new Size(249, 27);
             txtDate.TabIndex = 13;
             // 
             // txtDep
             // 
-            txtDep.Location = new Point(856, 348);
+            txtDep.Location = new Point(856, 389);
             txtDep.Name = "txtDep";
             txtDep.Size = new Size(249, 27);
             txtDep.TabIndex = 14;
             // 
             // txtPosition
             // 
-            txtPosition.Location = new Point(856, 428);
+            txtPosition.Location = new Point(856, 460);
             txtPosition.Name = "txtPosition";
             txtPosition.Size = new Size(249, 27);
             txtPosition.TabIndex = 15;
             // 
             // txtSalary
             // 
-            txtSalary.Location = new Point(856, 512);
+            txtSalary.Location = new Point(856, 170);
             txtSalary.Name = "txtSalary";
             txtSalary.Size = new Size(249, 27);
             txtSalary.TabIndex = 16;
-            // 
-            // txtRegid
-            // 
-            txtRegid.Location = new Point(856, 586);
-            txtRegid.Name = "txtRegid";
-            txtRegid.Size = new Size(249, 27);
-            txtRegid.TabIndex = 17;
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.Location = new Point(679, 586);
-            label7.Name = "label7";
-            label7.Size = new Size(113, 28);
-            label7.TabIndex = 18;
-            label7.Text = "Register Id :";
             // 
             // Employee
             // 
@@ -228,8 +209,6 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(1242, 727);
-            Controls.Add(label7);
-            Controls.Add(txtRegid);
             Controls.Add(txtSalary);
             Controls.Add(txtPosition);
             Controls.Add(txtDep);
@@ -278,7 +257,5 @@
         private TextBox txtDep;
         private TextBox txtPosition;
         private TextBox txtSalary;
-        private TextBox txtRegid;
-        private Label label7;
     }
 }
